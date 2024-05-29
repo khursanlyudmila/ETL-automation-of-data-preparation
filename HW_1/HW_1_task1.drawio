@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2024-05-29T16:38:29.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="xDtY5laRx4ilHzJnOUnd" version="24.1.0" type="device">
+  <diagram name="Страница — 1" id="K5wM23CfRUJo6fGQqFuQ">
+    <mxGraphModel dx="2308" dy="1457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="-740" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-1" value="Goggle Analytics" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="-720" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-2" value="&lt;span style=&quot;color: rgb(44, 45, 48); font-family: Onest, Roboto, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;1. Нарисуйте архитектуру ETL процесса для сбора и анализа данных компанией которая хочет провести маркетинговую кампанию, используя&amp;nbsp;&lt;/span&gt;app.diagrams.net&lt;span style=&quot;color: rgb(44, 45, 48); font-family: Onest, Roboto, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-810" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-3" value="AppsFlyer" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="-620" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-4" value="Яндекс Метрика" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-720" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-5" value="Facebook" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-520" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-6" value="Instagram" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="-520" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-7" value="My Target" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-620" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-8" value="Другие источники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="-430" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="-740" width="260" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-15" value="&lt;div&gt;Выгрузка данных&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Z9yxOCWXbqQHvF49-3Hb-12">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-920" y="-541.25" as="sourcePoint" />
+            <mxPoint x="-860" y="-541.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-16" value="Мэппинг данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-802.5" y="-560" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-17" value="Обработка данных из каждого источника" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-802.5" y="-710" width="225" height="120" as="geometry">
+            <mxRectangle x="-805" y="-720" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-18" value="- сортировка и фильтрация" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z9yxOCWXbqQHvF49-3Hb-17">
+          <mxGeometry y="30" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-19" value="- устранение дубликатов и очистка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z9yxOCWXbqQHvF49-3Hb-17">
+          <mxGeometry y="60" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-20" value="- преобразование и др." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z9yxOCWXbqQHvF49-3Hb-17">
+          <mxGeometry y="90" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-21" value="Сегментация данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-802.5" y="-490" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-22" value="Подготовка данных в выгрузке" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-802.5" y="-420" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-23" value="&lt;div&gt;Загрузка данных&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-560" y="-540.62" as="sourcePoint" />
+            <mxPoint x="-460" y="-539.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-740" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-25" value="BI Smart Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-680" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-26" value="BI Audiences" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-580" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-27" value="Power BI" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-680" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-30" value="Marketing MIX" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-580" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9yxOCWXbqQHvF49-3Hb-31" value="Другие источники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="-494" width="70" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
